@@ -1,0 +1,11 @@
+<svg width="99" height="22" viewBox="0 0 99 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1000004005">
+<g id="Graph">
+<rect id="Column" opacity="0.7" y="1" width="24.75" height="21" rx="1" fill="#DBDFF1"/>
+<rect id="Column_2" opacity="0.7" x="27.6617" y="1" width="20.3824" height="21" rx="1" fill="#DBDFF1"/>
+<rect id="Column_3" opacity="0.7" x="50.9559" y="1" width="20.3824" height="21" rx="1" fill="#DBDFF1"/>
+<rect id="Column_4" opacity="0.7" x="74.25" y="1" width="24.75" height="21" rx="1" fill="#DBDFF1"/>
+<path id="Chart" d="M0 3C12.5597 3 11.0821 12 25.8582 12C40.6343 12 36.9403 5 49.5 5C62.0597 5 64.8097 1 74.6194 1C84.1406 1 86.4403 10.5 99 10.5" stroke="#8676FF" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,166 @@
+.documentCon {
+  display: flex;
+  width: 544px;
+  padding: 24px 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  border-radius: 12px;
+  background: var(--color-light-light, #FCFCFD);
+  /* card effect */
+  box-shadow: 0px 10px 13px 0px rgba(17, 38, 146, 0.05);
+}
+
+.document {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+
+  display: flex;
+  width: 480px;
+  padding: 25px 111px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+
+  border-radius: 12px;
+  border: 1px dashed var(--color-dark-dark-2, #87898E);
+  background: var(--color-light-light, #FCFCFD);
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.BrowseBtn {
+
+  display: flex;
+  width: 232px;
+  height: 56px;
+  padding: 20px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  color: var(--color-light-light, #FCFCFD);
+
+  /* Label/Large */
+  font-family: Lexend;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  /* 150% */
+  border: none;
+  border-radius: 12px;
+  background: var(--brand-primary, #5C17E5);
+}
+
+.BrowseBtn {
+  /* margin-bottom: 32px; */
+
+  cursor: pointer;
+
+}
+
+.fileDowload {
+  display: flex;
+  height: 75px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border-radius: 12px;
+  border: 1px solid var(--color-light-light-3, #DFDFE6);
+  background: var(--color-light-light, #FCFCFD);
+}
+
+.fileName {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.documentText {
+  color: var(--color-dark-dark-2, #87898E);
+  text-align: center;
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Small Caption 2 / Medium */
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  /* 133.333% */
+}
+
+.fileName p {
+  color: var(--color-dark-dark-2, #87898E);
+  font-feature-settings: 'clig' off, 'liga' off;
+
+  /* Small Caption 2 / Medium */
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  /* 133.333% */
+}
+
+#uploadDoument {
+  display: none;
+}
+
+.DownloadProgress {
+  width: 357px;
+  height: 5px;
+  background: #DFDFE6;
+  border-radius: 30px;
+}
+
+.DownloadProgressinner {}
+
+.progressWrap {
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.DownloadProgressInner {
+  border-radius: 30px;
+  width: 50%;
+  background-color: #7F77FF;
+  height: 100%;
+}
+
+.folderIcon {
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+}
+
+.canelBtn {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  width: 480px;
+  height: 1px;
+  background: #F1F1F1;
+}
+
+
+#uploadDocument{
+  display: none;
+  cursor: pointer;
+}
